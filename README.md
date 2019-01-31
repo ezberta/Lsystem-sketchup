@@ -6,8 +6,7 @@ The inventor (Lindenmayer) helped write a great book "The Algorithmic Beauty of 
 
 
 ## What does this Extension do?
-Based on settings in the Sketchup Extensions Run L-System popup input box it will execute arbitrary L-Systems.
-It first makes a new rectangular "beam" component based on Width and Length parameters. This is what will be repeated per step of the L-System. It will be translated, rotated, and shrunk appropriately as it is copied.
+Based on settings in the Sketchup "Extensions"->"Run L-System" popup input box it will execute the user specified L-System. It first makes a new rectangular "beam" component based on Width and Length parameters. This component will get a new instantiation per step of the L-System. It will be translated, rotated, and shrunk appropriately as it is copied. The resulting L-System run will be in a new group.
 
 ## What do all the parameters mean?
 ```
@@ -43,7 +42,7 @@ Random rules can also be implemented:
 ```
 
 ## Cool examples
-The default settings cause just a simple twig like structure to be made.
+The default startup settings cause just a simple twig like structure to be made.
 
 ### Random spiking tree thing
 ```
