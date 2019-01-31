@@ -16,7 +16,7 @@ module CommunityExtensions
     unless file_loaded?(__FILE__)
       ex = SketchupExtension.new('L-System', 'Lsystem/main')
       ex.description = 'L-System generator'
-      ex.version     = '0.5.0'
+      ex.version     = '0.5.1'
       ex.copyright   = '2019 Eugene Berta, ' <<
                        'released under the MIT License'
       ex.creator     = 'Eugene Berta'

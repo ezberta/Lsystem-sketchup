@@ -192,7 +192,10 @@ module CommunityExtensions
           @alphabet = temp
 
           if @alphabet.length > limit_size
-            print("Alphabet #{@alphabet.length} bigger then #{limit_size}, limiting iterations to #{i+1}\n")
+            msg = "L-System: Alphabet #{@alphabet.length} bigger then #{limit_size}, limiting iterations to #{i+1}\n"
+            print(msg)
+            notify =  UI::Notification.new(self, msg, nil, nil)
+            notify.show
             break
           end
           
