@@ -10,7 +10,7 @@ Based on settings in the Sketchup "Extensions"->"Run L-System" popup input box i
 
 ## What do all the parameters mean?
 ```
-Circle Angle Splits: how much a full circle is divided (ie 4 = 90°)
+Circle Angle Splits: angle used by +,- alphabet commands determined by how much a full circle is divided (ie 4 = 90°)
 Iters: number of times to iterate through the initial axiom
 Length: length of a step
 Width: width of rectangle "beam" component
@@ -68,7 +68,7 @@ F
 F +F--F+
 ```
 
-### Penrose fractal
+### Penrose
 ```
 10
 6
@@ -82,4 +82,16 @@ X +YF--ZF[---WF--XF]+
 Y -WF++XF[+++YF++ZF]-
 Z --YF++++WF[+ZF++++XF]--XF
 F
+```
+
+### Doily
+```
+12
+3
+6
+1
+0.95
+30000
+F--F--F--F--F--F
+F -F[--F--F]++F--F+
 ```
