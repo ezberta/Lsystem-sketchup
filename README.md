@@ -34,7 +34,7 @@ Rules: L-System rules (see below for alphabet/rules syntax)
   ]	End branch and return to its parent
 ```
 
-##Rule syntax
+## Rule syntax
 ```
 "F F[+F]F[-F]F" means F->F[+F]F[-F]F, the space implies the "->"
 
