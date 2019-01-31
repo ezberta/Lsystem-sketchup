@@ -307,7 +307,7 @@ module CommunityExtensions
       
     end
 
-    @@defaults = [14, 4, 6, 1, 0.95, 30000, "F", "F F[+F]F[-F]F" ]
+    @@defaults = [14, 4, 6.0, 1.0, 0.95, 30000, "F", "F F[+F]F[-F]F" ]
     
     def self.run_lsystem
       prompts = ["Circle Angle Splits", "Iters", "Length", "Width", "Multiplier", "Alpha Limit", "Axiom", "Rule1", "Rule2", "Rule3", "Rule4", "Rule5", "Rule6", "Rule7", "Rule8"]

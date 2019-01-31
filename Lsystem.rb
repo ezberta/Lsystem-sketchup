@@ -18,7 +18,7 @@ module CommunityExtensions
       ex.description = 'L-System generator. ' <<
                        'See https://github.com/ezberta/Lsystem-sketchup ' <<
                        ' for usage instructions.'
-      ex.version     = '0.5.2'
+      ex.version     = '0.5.3'
       ex.copyright   = '2019 Eugene Berta, ' <<
                        'released under the MIT License'
       ex.creator     = 'Eugene Berta'
