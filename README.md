@@ -38,7 +38,7 @@ Rules: L-System rules (see below for alphabet/rules syntax)
 "F F[+F]F[-F]F" means F->F[+F]F[-F]F, the space implies the "->"
 
 Random rules can also be implemented:
-"F F[+F][-F]F F[-F]F F[+F]F 0.5 0.3 0.2"]" means F with probability 0.5 will become "F[+F][-F]F", with probability 0.3 will become "F[-F]F", and with probability 0.2 become "F[+F]F"
+"F F[+F][-F]F F[-F]F F[+F]F 0.5 0.3 0.2" means F with probability 0.5 will become "F[+F][-F]F", with probability 0.3 will become "F[-F]F", and with probability 0.2 become "F[+F]F"
 ```
 
 ## Cool examples
