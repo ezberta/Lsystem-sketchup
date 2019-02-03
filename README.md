@@ -9,6 +9,7 @@ The inventor (Lindenmayer) helped write a great book "The Algorithmic Beauty of 
 Based on settings in the Sketchup "Extensions"->"Run L-System" popup input box it will execute the user specified L-System. It first makes a new rectangular "beam" component based on Width and Length parameters. This component will get a new instantiation per step of the L-System. It will be translated, rotated, and shrunk appropriately as it is copied. The resulting L-System run will be in a new group.
 
 ## What do all the parameters mean?
+![Parameters GUI](/screenshots/parameters.png)
 ```
 Circle Angle Splits: angle used by +,- alphabet commands determined by how much a full circle is divided (ie 4 = 90°)
 Iters: number of times to iterate through the initial axiom
@@ -55,6 +56,7 @@ The default startup settings cause just a simple twig like structure to be made.
 F
 F F[+F][-F]F F[-F]F F[+F]F 0.5 0.3 0.2
 ```
+![Random Tree in SketchUp](/screenshots/randomTree.png)
 
 ### Levy C Curve
 ```
@@ -67,6 +69,7 @@ F F[+F][-F]F F[-F]F F[+F]F 0.5 0.3 0.2
 F
 F +F--F+
 ```
+![Levy C Curve in SketchUp](/screenshots/Levy.png)
 
 ### Penrose
 ```
@@ -83,6 +86,7 @@ Y -WF++XF[+++YF++ZF]-
 Z --YF++++WF[+ZF++++XF]--XF
 F
 ```
+![Penrose Tiling in SketchUp](/screenshots/Penrose.png)
 
 ### Doily
 ```
@@ -95,3 +99,4 @@ F
 F--F--F--F--F--F
 F -F[--F--F]++F--F+
 ```
+![Doily in SketchUp](/screenshots/Doily.png)
